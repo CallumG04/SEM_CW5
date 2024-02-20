@@ -4,4 +4,4 @@ Project Description - working in a scrum team to design and implement a new syst
 
 Contributors - Arda Bariskan, Oliver Walker, Calum Glass
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/CallumG04/SEMGroupH/main.yml?branch=master)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/CallumG04/SEM_CW5/main.yml?branch=master)

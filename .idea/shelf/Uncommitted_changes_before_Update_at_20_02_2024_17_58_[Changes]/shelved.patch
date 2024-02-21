@@ -1,0 +1,237 @@
+Index: test-dockerfile/Dockerfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test-dockerfile/Dockerfile b/test-dockerfile/Dockerfile
+new file mode 100644
+--- /dev/null	(date 1708430507802)
++++ b/test-dockerfile/Dockerfile	(date 1708430507802)
+@@ -0,0 +1,2 @@
++FROM ubuntu:latest
++CMD ["echo", "'It worked!'"]
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0eaeb13f-aa3a-4450-a747-d6b76d9726f7\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 4\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2cd5HLgXmeGExP1YdfnKhRt4KAL\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/callu/Desktop/seMethodsGroupH/src/main/java/com/napier/sem/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.customizations\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0eaeb13f-aa3a-4450-a747-d6b76d9726f7\" name=\"Changes\" comment=\"\" />\r\n      <created>1708428546875</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1708428546875</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/Main.java</url>\r\n          <line>15</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ff032e074a4b329ff6743d6548a54ec9ed68bef9)
++++ b/.idea/workspace.xml	(date 1708451499294)
+@@ -4,19 +4,32 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0eaeb13f-aa3a-4450-a747-d6b76d9726f7" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++    <list default="true" id="0eaeb13f-aa3a-4450-a747-d6b76d9726f7" name="Changes" comment="Add Licence">
++      <change afterPath="$PROJECT_DIR$/test-dockerfile/Dockerfile" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/LICENCE" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Dockerfile" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="origin/master" />
++  </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -35,11 +48,16 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "develop",
+     "onboarding.tips.debug.path": "C:/Users/callu/Desktop/seMethodsGroupH/src/main/java/com/napier/sem/Main.java",
+     "settings.editor.selected.configurable": "preferences.customizations"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\callu\Desktop\seMethodsGroupH\test-dockerfile" />
++    </key>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -49,13 +67,155 @@
+       <option name="presentableId" value="Default" />
+       <updated>1708428546875</updated>
+     </task>
++    <task id="LOCAL-00001" summary="First Files">
++      <option name="closed" value="true" />
++      <created>1708429049156</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1708429049159</updated>
++    </task>
++    <task id="LOCAL-00002" summary="First Files">
++      <option name="closed" value="true" />
++      <created>1708429181884</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1708429181884</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Added App java">
++      <option name="closed" value="true" />
++      <created>1708429748313</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1708429748315</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Added Dockerfile">
++      <option name="closed" value="true" />
++      <created>1708439192066</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1708439192070</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Updated README File">
++      <option name="closed" value="true" />
++      <created>1708439662651</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1708439662657</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Updated Java version File">
++      <option name="closed" value="true" />
++      <created>1708440336469</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1708440336472</updated>
++    </task>
++    <task id="LOCAL-00007" summary="Updated Java version">
++      <option name="closed" value="true" />
++      <created>1708440681784</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1708440681787</updated>
++    </task>
++    <task id="LOCAL-00008" summary="Adding Build Badge">
++      <option name="closed" value="true" />
++      <created>1708441320326</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1708441320332</updated>
++    </task>
++    <task id="LOCAL-00009" summary="Adding Build Badge 2">
++      <option name="closed" value="true" />
++      <created>1708441622111</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1708441622113</updated>
++    </task>
++    <task id="LOCAL-00010" summary="Adding Other Badges">
++      <option name="closed" value="true" />
++      <created>1708442105412</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1708442105414</updated>
++    </task>
++    <task id="LOCAL-00011" summary="Adding Other Badges">
++      <option name="closed" value="true" />
++      <created>1708442425021</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1708442425026</updated>
++    </task>
++    <task id="LOCAL-00012" summary="Updating Badges">
++      <option name="closed" value="true" />
++      <created>1708443523594</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1708443523597</updated>
++    </task>
++    <task id="LOCAL-00013" summary="Add Licence">
++      <option name="closed" value="true" />
++      <created>1708445114042</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1708445114051</updated>
++    </task>
++    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/develop" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="First Files" />
++    <MESSAGE value="Added App java" />
++    <MESSAGE value="Added Dockerfile" />
++    <MESSAGE value="Updated README File" />
++    <MESSAGE value="Updated Java version File" />
++    <MESSAGE value="Updated Java version" />
++    <MESSAGE value="Adding Build Badge" />
++    <MESSAGE value="Adding Build Badge 2" />
++    <MESSAGE value="Adding Other Badges" />
++    <MESSAGE value="Updating Badges" />
++    <MESSAGE value="Add Licence" />
++    <option name="LAST_COMMIT_MESSAGE" value="Add Licence" />
++  </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+         <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/Main.java</url>
++          <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/App.java</url>
+           <line>15</line>
+           <option name="timeStamp" value="1" />
+         </line-breakpoint>

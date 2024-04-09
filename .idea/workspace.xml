@@ -4,27 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eaeb13f-aa3a-4450-a747-d6b76d9726f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0eaeb13f-aa3a-4450-a747-d6b76d9726f7" name="Changes" comment="Updated develop branch">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cd5HLgXmeGExP1YdfnKhRt4KAL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,11 +50,94 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/callu/Desktop/seMethodsGroupH",
     "onboarding.tips.debug.path": "C:/Users/callu/Desktop/seMethodsGroupH/src/main/java/com/napier/sem/Main.java",
-    "settings.editor.selected.configurable": "preferences.customizations"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.16436464",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\callu\Desktop\seMethodsGroupH\test-dockerfile" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.db/Dockerfile">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
+      <module name="seMethodsGroupH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <classpathModifications>
+        <entry path="C:\Users\callu\Desktop\seMethodsGroupH" />
+      </classpathModifications>
+      <module name="seMethodsGroupH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <classpathModifications>
+        <entry path="C:\Users\callu\Desktop\seMethodsGroupH" />
+      </classpathModifications>
+      <module name="seMethodsGroupH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="db/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="db/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.db/Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.MyTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,17 +147,184 @@
       <option name="presentableId" value="Default" />
       <updated>1708428546875</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Files">
+      <option name="closed" value="true" />
+      <created>1708429049156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708429049159</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Files">
+      <option name="closed" value="true" />
+      <created>1708429181884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708429181884</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added App java">
+      <option name="closed" value="true" />
+      <created>1708429748313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708429748315</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Dockerfile">
+      <option name="closed" value="true" />
+      <created>1708439192066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708439192070</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated README File">
+      <option name="closed" value="true" />
+      <created>1708439662651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708439662657</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated Java version File">
+      <option name="closed" value="true" />
+      <created>1708440336469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708440336472</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated Java version">
+      <option name="closed" value="true" />
+      <created>1708440681784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708440681787</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding Build Badge">
+      <option name="closed" value="true" />
+      <created>1708441320326</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708441320332</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding Build Badge 2">
+      <option name="closed" value="true" />
+      <created>1708441622111</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708441622113</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding Other Badges">
+      <option name="closed" value="true" />
+      <created>1708442105412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708442105414</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding Other Badges">
+      <option name="closed" value="true" />
+      <created>1708442425021</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708442425026</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updating Badges">
+      <option name="closed" value="true" />
+      <created>1708443523594</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708443523597</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add Licence">
+      <option name="closed" value="true" />
+      <created>1708445114042</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708445114051</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update Files">
+      <option name="closed" value="true" />
+      <created>1708451888786</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708451888797</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated develop branch">
+      <option name="closed" value="true" />
+      <created>1710243729086</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710243729087</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/db/test_db" />
+    </ignored-roots>
+    <MESSAGE value="First Files" />
+    <MESSAGE value="Added App java" />
+    <MESSAGE value="Added Dockerfile" />
+    <MESSAGE value="Updated README File" />
+    <MESSAGE value="Updated Java version File" />
+    <MESSAGE value="Updated Java version" />
+    <MESSAGE value="Adding Build Badge" />
+    <MESSAGE value="Adding Build Badge 2" />
+    <MESSAGE value="Adding Other Badges" />
+    <MESSAGE value="Updating Badges" />
+    <MESSAGE value="Add Licence" />
+    <MESSAGE value="Update Files" />
+    <MESSAGE value="Updated develop branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated develop branch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/App.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

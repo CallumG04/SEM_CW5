@@ -37,18 +37,10 @@ Team labels
 Release Scoping labels
 Priority labels
 Severity labels
-
 Severity impact guidance
-
-
 Labels for community contributors
 
-
-Implement design & UI elements
-View the documentation to find the latest information.
-
 Issue tracker
-View the issue workflow documentation for the following subjects.
 
 Issue triaging
 Feature proposals
@@ -57,9 +49,3 @@ Issue weight
 Regression issues
 Technical and UX debt
 Stewardship
-
-Definition of done
-View the documentation to find the latest information.
-
-Style guides
-View the documentation to find the latest information.

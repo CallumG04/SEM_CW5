@@ -21,28 +21,15 @@ As of July 2018, all the documentation for contributing to the GitLab project ha
 View the documentation to find the latest information.
 
 Contribute to GitLab
-View the documentation to find the latest information.
+https://about.gitlab.com/community/contribute/
 
 Security vulnerability disclosure
-View the documentation to find the latest information.
+https://about.gitlab.com/security/disclosure/
 
 Code of Conduct
-View the documentation to find the latest information.
-
-Closing policy for issues and merge requests
-View the documentation to find the latest information.
-
-Helping others
-View the documentation to find the latest information.
-
-I want to contribute!
-View the documentation to find the latest information.
-
-Contribution Flow
-View the documentation to find the latest information.
+https://github.com/CallumG04/SEM_CW_GROUPH/blob/master/CODE_OF_CONDUCT.md
 
 Workflow labels
-View the issue workflow documentation for these subjects:
 
 Type labels
 Subject labels
@@ -70,14 +57,6 @@ Issue weight
 Regression issues
 Technical and UX debt
 Stewardship
-
-
-Merge requests
-View the merge request workflow documentation for the following subjects.
-
-Merge request guidelines
-Contribution acceptance criteria
-
 
 Definition of done
 View the documentation to find the latest information.

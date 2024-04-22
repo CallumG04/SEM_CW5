@@ -9,8 +9,6 @@ Contributors - Arda Bariskan, Oliver Walker, Callum Glass, Dawid Zielinski
 * License [![LICENSE](https://img.shields.io/github/license/CallumG04/SEM_CW5.svg?style=flat-square)](https://github.com/CallumG04/SEM_CW5/blob/master/LICENSE)
 * Release [![Releases](https://img.shields.io/github/release/CallumG04/SEM_CW5/all.svg?style=flat-square)](https://github.com/CallumG04/SEM_CW5/releases)
 
-* Check-code-coverage(https://img.shields.io/badge/codecoverage)
-
 
 | ID | Name                       | Met | Screenshoot |
 |----|----------------------------|-----|-------------|
